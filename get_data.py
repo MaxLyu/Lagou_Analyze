@@ -42,7 +42,7 @@ class LagouSpider(object):
     # 保存 items
     def save_data(self, items):
         # 获取文件大小
-        file_size = os.path.getsize(r'E:\Python\lagou.csv')
+        file_size = os.path.getsize(r'E:\Python\analyst.csv')
         if file_size == 0:
             # 表头
             name = ['ID', '学历要求', '工作经验', '薪资']
